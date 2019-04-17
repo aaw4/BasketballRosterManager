@@ -26,7 +26,7 @@ $ npm start
  
  - Real time modification to player info. 
  
- ![Minye Wu](https://github.com/MinyeGit/BasketballRosterManager/blob/master/src/modifications.gif)
+ ![Minye Wu](https://github.com/MinyeGit/BasketballRosterManager/blob/master/src/modification.gif)
  
  - Display players' info in any order you want. 
  
