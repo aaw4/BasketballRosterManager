@@ -1,0 +1,29 @@
+body {
+  font-weight: 300;
+  background-color: #dd1f1f;
+}
+
+header a,
+footer a {
+  color: rgb(54, 13, 235);
+}
+
+footer {
+  font-size: 0.8em;
+}
+
+.bg-primary,
+.btn-primary {
+  background-color: #8d1ece !important;
+  border: inherit;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.py-2 {
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

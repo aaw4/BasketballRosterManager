@@ -1,0 +1,68 @@
+.add-player .card-body {
+  display: none;
+}
+
+.player-addheading {
+  cursor: pointer;
+  user-select: none;
+}
+
+.roster-list {
+  font-size: 1.1em;
+}
+
+
+.roster-list .player-item {
+  border-bottom: 1px dotted rgb(190, 20, 20);
+}
+
+.roster-list .player-item:last-child {
+  border-bottom: none;
+}
+
+.roster-list .player-name {
+  font-weight: 600;
+  color: #42b733;
+  font-size: 1.3em;
+  line-height: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.roster-list .label-item {
+  font-weight: 600;
+  color: #3c0e61;
+}
+
+.roster-list .birthday {
+  font-style: italic;
+  color: rgb(27, 201, 36);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.roster-list .agent-name {
+  color: rgb(43, 54, 206);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.roster-list .scouting-report {
+  line-height: 120%;
+  color: rgb(209, 26, 169);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #1164a8;
+}
+
+.App-component {
+  background-image: url(../background.gif);
+
+  height: 90%; 
+
+  background-position: 60% 100%;
+  background-repeat: repeat-y;
+  background-size: 300px 300px;
+}
+
+

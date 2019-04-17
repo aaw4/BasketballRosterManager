@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    
+    <style> 
+      #div2 {
+        width: 500px;
+        height: 50px;
+        font-weight: bold;
+        position: relative;
+        animation: mymove 10s infinite;
+      }
+
+      #div2 {animation-timing-function: ease;}
+    
+      @keyframes mymove {
+        0% {
+    left: 0;
+  }
+  50% {
+    left: 720px;
+  }
+  100% {
+    left: 0;
+  }
+      }
+      </style>
+    <title>Basketball Roster Manager</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <header class="container text-white">
+      <h1 id = "div2" class="py-2" style="text-align:center">Basketball Roster Manager</h1>
+    </header>
+    
+    <div id="root"></div>
+
+
+    <footer class="container d-flex text-white py-2">
+      <p>
+        All contents &copy; 2019
+        <a href = https://github.com/MinyeGit>MinyeGit</a>. 
+        All rights reserved.
+      </p>
+    </footer>
+
+  </body>
+</html>
